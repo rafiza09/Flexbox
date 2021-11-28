@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.atas{
+    display: flex;
+}
+
+.atas img{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    padding: 5px 5px;
+}
+
+.bawah{
+    display: flex;
+}
+
+.bawah img{
+    width: 240px;
+    height: 150px;
+    padding: 0px 5px;
+}
+
+footer{
+    text-align: center;
+}

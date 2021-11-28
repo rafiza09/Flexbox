@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0px;margin:0px;
+    display: flex;
+}
+    
+.flex{
+    display: flex;
+    height:100vh;
+}
+
+.main-konten {
+    display: flex;
+}
+
+.header,.footer{
+    height:20vh;
+    background-color: rgb(240, 230, 140);
+}
+
+.artikel,.aside{
+    height:60vh;
+}
+
+.nav{
+    width:30vh;
+    padding: 20px;
+    background-color: rgb(255, 192, 203);
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav li{
+    padding: 8px;
+}
+
+.nav .satu{
+    list-style: none;
+    padding: 3px;
+}
+
+.nav .dua{
+    list-style: none;
+    padding: 3px;
+}
+
+.nav a{
+    text-decoration-line: none;
+}
+
+.konten{
+    width:100%
+}
+
+.header{
+    display: flex;
+    margin: 0px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.header h2{
+    color: gray;
+}
+
+.artikel{
+    width:70%;
+    display: flex;
+    justify-content:center;
+    padding: 60px;
+    font-family: sans-serif;
+}
+
+.artikel h4{
+    color: gray;
+}
+
+.aside{
+    width:30%;
+    background-color: rgba(73, 180, 223, 0.397);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.aside .judul2{
+    list-style: none;
+    padding: 3px;
+}
+
+.aside ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside a{
+    text-decoration-line: none;
+    color: black
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+}
+
+.bawah1{
+    display: flex;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.bawah1 ul{
+    display: flex;
+}
+
+.bawah1 li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.bawah2{
+    display: flex;
+    padding: 20px;
+}
+
+.bawah2 ul{
+    display: flex;
+    padding-left: 180px;
+}
+
+.bawah2 li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.bawah2 i{
+    font-size: 20px;
+}
